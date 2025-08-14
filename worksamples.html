@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ashton Barr</title>
+</head>
+</body>
+    <!--This is the main headding-->
+    <header>
+        <h1 style="color:hsl(300, 100%, 25%)">Work Samples</h1>
+    </header>
+      <!--Navigation Menu-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></a></li>
+            <li><a href="about.html">About Me</a></a></li>
+            <li><a href="teaching.html">Teaching Practice</a></a></li>
+            <li><a href="projects.html">Projects</a></a></li>
+            <li><a href="worksamples.html">Work Samples</a></a></li>
+            <li><a href="contact.html">Contact Me</a></a></li>
+        </ul>
+    </nav>
+    <!--This is for the main parts of this page-->
+    <main>
+        <!--This section is focused on showcasing projects I have made - in Flexbox format-->
+        <section>
+            <style>
+                .flex-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                }
+                .project-card {
+                    flex:1 1 150px;
+                    background-color:beige;
+                    border: 1px solid cornflowerblue;
+                    padding: 15px;
+                    border-radius: 8px;
+                    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1)
+                }
+
+                .project-card img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 4px;
+                }
+
+                .project-card h2 {
+                    margin-top: 10px;
+                    font-size: 1.1rem;
+                    color: green;
+                }
+            </style>
+            <div class="flex-container">
+                <div class="project-card">
+                    <img src="images/heirloom box.jpeg" alt="Image of wooden heirloom box with mountain veneer pattern">
+                    <h2>Heirloom Box</h2>
+                    <p>Wooden Heirloom box, suitable for stage 5 students</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/Robot lamp.jpeg" alt="Image of wooden lamp desiged into a robot that stores books">
+                    <h2>Robot Lamp</h2>
+                    <p>Robot lamp, suitable for stage 4 and 5 students</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/Wooden stool.jpeg" alt="Image of wooden stool with flower and butterfly upholstory">
+                    <h2>Wooden Stool</h2>
+                    <p>Wooden stool, suitable for stage 4 students</p>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="project-card">
+                    <img src="images/Sheet metal toolbox.jpeg" alt="Image of a toolbox made from sheet metal">
+                    <h2>Sheet Metal Toolbox</h2>
+                    <p>Sheet metal toolbox, suitable for stage 5 students</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/metal hacksaw.jpeg" alt="Image of metal hacksaw that has been painted green with a green handle">
+                    <h2>Green Metal Hacksaw</h2>
+                    <p>Metal hacksaw, suitable for stage 5 students</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/wooden chopping board.jpeg" alt="Image of wooden chopping board that contains various colours of timber and laser engraving">
+                    <h2>Wooden Chopping Board</h2>
+                    <p>Wooden chopping board, suitable for stage 4 students</p>
+                </div>
+            </div>    
+        </section>
+    </main>
+    </body>
+    </html>
