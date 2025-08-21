@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashton Barr</title>
+    <link rel="stylesheet" href="starter.css">
     </head>
     </body>
 
     <!--This is the main headding-->
     <header>
-        <h1 style="text-align: center; font-family: 'Arial'; font-size: large;">About Me</h1>
+        <h1 style="text-align: center; font-family: 'Arial'; font-size:xx-large;">About Me</h1>
     </header>
     <!--Navigation Menu-->
     <nav>
-        <ul>
+        <ul style="font-family: 'Arial';">
             <li><a href="index.html">Home</a></a></li>
-            <li><a href="about.html">About Me</a></a></li>
-            <li><a href="teaching.html">Teaching Practice</a></a></li>
+            <li><a href="about.html" class="active">About Me</a></a></li>
+            <li><a href="teaching.html">Teaching Practise</a></a></li>
             <li><a href="projects.html">Projects</a></a></li>
             <li><a href="worksamples.html">Work Samples</a></a></li>
             <li><a href="contact.html">Contact Me</a></a></li>
@@ -24,20 +25,20 @@
     </nav>
     <main>
         <section>
-            <p>My name is Ashton Barr, I am a third year student at <a href="https://www.acu.edu.au" target="_blank">Australian Catholic University.</a></p>
+            <p style="font-family: 'Arial';">My name is Ashton Barr, I am a third year student at <a href="https://www.acu.edu.au" target="_blank">Australian Catholic University.</a></p>
             <!--This is a picture of me-->
             <h2 style="text-align:left;">This is me:</h2>
-            <img src="images/Untitled design (1).png" alt="Image of Ashton Barr smiling at the camera in a banner shaped box" width=250px>
+            <img src="images/ProfilePicture.png" alt="Image of Ashton Barr smiling at the camera in a banner shaped box" width=250px>
             <!--this is a paragraph of informtion about me, including a picutre of projects I have made-->
-            <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Information about me:</h3>
-            <p>I am in my third year at university, studying at Australian Catholic University. My degree is a double, in which I am studying a Bachelor of Education (Secondary)/Bachelor of Arts (Design innovations and Technology). During my degree I have identified my major, industrial timber, and my minor, food technology. I am in the process of designing and creating my major work which is due at the conclusion of the semester. As I am in my third year, I have completed three placements, two at public schools and one at a Catholic school, providing me with a range of skills, understanding, and resources for my professional career. </p>
-            <p>Although I do spend majority of my time at university and work, I have a range of hobbies that I do in my spare time, as well as make time to do them. I enjoy going to the gym and going on runs, as well as crocheting. I am currently training for a half marathon and completing a range of crochet projects. By creating and sticking to a routine and spending time with loved ones, I am able to successfully manage my time.</p>
-            <img src="images/collage of projects.png" alt="Collage of picutures relating to various projects created at University" width=650px>
+            <h3 style="font-family: 'Arial';">Information about me:</h3>
+            <p style="font-family: 'Arial';">I am in my third year at university, studying at Australian Catholic University. My degree is a double, in which I am studying a Bachelor of Education (Secondary)/Bachelor of Arts (Design innovations and Technology). During my degree I have identified my major, industrial timber, and my minor, food technology. I am in the process of designing and creating my major work which is due at the conclusion of the semester. As I am in my third year, I have completed three placements, two at public schools and one at a Catholic school, providing me with a range of skills, understanding, and resources for my professional career. </p>
+            <p style="font-family: 'Arial';">Although I do spend majority of my time at university and work, I have a range of hobbies that I do in my spare time, as well as make time to do them. I enjoy going to the gym and going on runs, as well as crocheting. I am currently training for a half marathon and completing a range of crochet projects. By creating and sticking to a routine and spending time with loved ones, I am able to successfully manage my time.</p>
+            <img src="images/CollageOfProjects.png" alt="Collage of picutures relating to various projects created at University" width=650px>
         </section>
         <section>
         <!--This is an unordered list of attributes about me as a teacher-->
-            <h4>Professional Summary</h4>
-                <ul style="font-size: medium;">
+            <h4 style="font-family: 'Arial';">Professional Summary</h4>
+                <ul style="font-size: medium; font-family: 'Arial';">
                     <li>Completing third consecutive year at University</li>
                     <li>Completed three practium plcements at various schools</li>
                     <li>Completed work as a SLSO at various schools</li>
@@ -45,8 +46,8 @@
         </section>
         <section>
         <!--This is an ordered list, represents professional milestones-->
-            <h5 style="font-size: medium;"><em>Professional Journey</em></h5>
-                <ol style="font-size: medium;">
+            <h5 style="font-size: medium; font-family: 'Arial';"><em>Professional Journey</em></h5>
+                <ol style="font-size: medium; font-family: 'Arial';">
                     <li>2023: Enrolled and continuing study, Bachelor of Education (Secondary)/Bachelor of Arts (Design Innovations and Technology)</li>
                     <li>2024: Completed first and second practicum placement</li>
                     <li>2025: Recieved job as an SLSO staff memeber and completed thrid practicum placement</li>
@@ -55,40 +56,41 @@
         <!--This section is in table formation outline practicum palcement overview-->
         <section>
     <style>
-      table {
+    table {
         width: 100%;
         border-collapse: collapse;
         margin-top: 10px;
-        font-family: Arial, san-serif;
-      }
+        font-family: Arial;
+    }
 
-      th,td {
-        border: 1px solid rgb(171, 218, 188);
+    th, td {
+        border: 1px solid rgb(35, 46, 39);
         padding: 10px 12px;
         text-align: left;
-      }
-      
-      thead {
-        background-color: #d9f3db
-      }
+    }
+    
+    thead {
+        background-color: #3c5548; /* Changed to a more distinct green */
+    }
 
-      th {
-        color:black;
+    th {
+        color: black;
         font-weight: bold;
-      }
+        background-color: #2e5642; /* Ensures th has the new color */
+    }
 
-      tr:nth-child(even) {
-        background-color: #e8f3e9
-      }
+    tr {
+        background-color: #c2ddc5;
+    }
 
-      h2 {
+    h2 {
         font-family: 'Arial';
         font-size: 1.4rem;
         margin-bottom: 8px;
-        color:black
-      }
+        color: black;
+    }
     </style>
-            <h5 style="font-size: medium;"><em>Practicum Placement Overview</em></h5>
+            <h5 style="font-size: medium; font-family: 'Arial';"><em>Practicum Placement Overview</em></h5>
             <table>
                 <thead>
                     <tr>
