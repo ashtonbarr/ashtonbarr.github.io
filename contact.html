@@ -19,8 +19,33 @@
             <li><a href="teaching.html">Teaching Practise</a></a></li>
             <li><a href="projects.html">Projects</a></a></li>
             <li><a href="worksamples.html">Work Samples</a></a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="resume.html">Resume</a></li>
             <li><a href="contact.html" class="active">Contact Me</a></a></li>
         </ul>
-    </nav>    
+    </nav>  
+    <main>
+        <section>
+            <h2 style="text-align: center; font-family: 'Arial'; font-size:x-large;">Get in Touch</h2>
+            <form id="contact-form" action="" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <label for="name">Full Name:</label>
+                    <input id="name" name="name" type="text" placeholder="First and Last Name" required minlength="6">
+                    <label for="email">Email Address:</label>
+                    <input id="email" name="email" type="email" placeholder="name@example.com" required autocomplete="email">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" type="message" placeholder="How can I help?" required minlength="8"></textarea>
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!--This is the footer section of my page, in line with semantic HTML-->  
+        <footer>
+        <div class="flex-container">
+            <p> &copy; 2025 Ashton Barr. All rights reserved.</p>
+        </div>
+    </footer>
     </body>
     </html>
